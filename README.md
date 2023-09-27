@@ -12,17 +12,18 @@ Quick installation of mining on Android Phones
 - Stable network (WiFi/cellular) is a must for proper installation/operation. Be prepared to troubleshoot and fix them yourself.
 
 ## Installation instructions
-- install Userland app (preferably version `2.8.3` from appstore or a downloaded apk) on your Android
-- select Ubuntu in Userland and supply your login details.
-- choose SSH
-- wait for it to install, enter Ubuntu and log into your account
+- Remote control of phone, install https://github.com/bk138/droidVNC-NG on phone.
+- Install Userland app (preferably version `2.8.3` from appstore or a downloaded apk) on your Android. https://github.com/CypherpunkArmory/UserLAnd
+- Select Ubuntu in Userland and supply your login details.
+- Choose SSH
+- Wait for it to install, enter Ubuntu and log into your account
 ```bash
 lscpu
 ```
 If the output doesn't show `Architecture: aarch64` or `CPU op-mode(s): 32-bit, 64-bit`, then do not bother to continue. Your phone is not running a 64-bit OS.
 
 ```bash
-curl -o- -k https://raw.githubusercontent.com/TheRetroMike/VerusCliMining/main/install.sh | bash
+curl -o- -k https://raw.githubusercontent.com/naltabra/VerusCliMiningOA/main/install.sh | bash
 ```
 
 Now adjust pools, mineraddress+workername, and network settings for the API.
@@ -46,6 +47,8 @@ Host Pixel2XL01
 
 Starting the miner:
 `~/ccminer/start.sh`
+
+Check result, https://luckpool.net/verus/connect.html.
 
 
 ## Github cloning and customizing
