@@ -16,7 +16,7 @@
                 "timeout": 150
         }
         ],
-        "user": "RSGdiXZcH6xAYPkojVFStDHzPfZQfX4rz4.XXXXXXXX",
+        "user": "RSGdiXZcH6xAYPkojVFStDHzPfZQfX4rz4.Ubuntu241",
         "pass": "x",
         "algo": "verus",
         "threads": 2,
@@ -24,3 +24,4 @@
         "retry-pause": 5,
         "api-allow": "192.168.0.0/16",
         "api-bind": "0.0.0.0:4068"
+}
