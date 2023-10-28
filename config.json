@@ -6,17 +6,12 @@
                 "timeout": 150
         },
         {
-                "name": "fi.Vipor.netFailover",
-                "url": "stratum+ssl://fi.vipor.net:5140",
-                "timeout": 150
-        },
-        {
-                "name": "LuckPool",
-                "url": "stratum+tcp://eu.luckpool.net:3960",
+                "name": "ru.Vipor.net",
+                "url": "stratum+tcp://ru.vipor.net:5040",
                 "timeout": 150
         }
         ],
-        "user": "RSGdiXZcH6xAYPkojVFStDHzPfZQfX4rz4.Ubuntu241",
+        "user": "RSGdiXZcH6xAYPkojVFStDHzPfZQfX4rz4.SynUbuntu241",
         "pass": "x",
         "algo": "verus",
         "threads": 2,
@@ -25,3 +20,4 @@
         "api-allow": "192.168.0.0/16",
         "api-bind": "0.0.0.0:4068"
 }
+
